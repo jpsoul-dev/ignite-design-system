@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "@souldev-ui/eslint-config",
+    "plugin:storybook/recommended"
+  ]
+}

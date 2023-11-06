@@ -1,0 +1,4 @@
+{
+  "extends": "@souldev-ui/tsconfig/react.json",
+  "include": ["src"]
+}
