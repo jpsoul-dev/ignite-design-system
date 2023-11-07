@@ -10,7 +10,7 @@
     "dev": "tsup src/index.ts --format esm,cjs --dts --external react --watch",
     "lint": "eslint src/**/*.ts* --fix",
     "storybook": "storybook dev -p 6007",
-    "build-storybook": "storybook build && touch .nojekyll",
+    "build-storybook": "storybook build && touch ./storybook-static/.nojekyll.nojekyll",
     "deploy-storybook": "storybook-to-ghpages"
   },
   "keywords": [],
@@ -45,6 +45,7 @@
     "@radix-ui/react-avatar": "^1.0.4",
     "@radix-ui/react-checkbox": "^1.0.4",
     "@stitches/react": "^1.2.8",
+    "@storybook/addon-a11y": "^7.5.3",
     "phosphor-react": "^1.4.1"
   }
 }
